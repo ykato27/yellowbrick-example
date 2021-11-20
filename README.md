@@ -1,6 +1,6 @@
-# python-template-repository
+# yellowbrick-example
 
-本リポジトリはPython 環境のテンプレートリポジトリです。
+機械学習の可視化ライブラリー(yellowbrick) のexample リポジトリです。
 
 ## リポジトリ構成
 
@@ -13,11 +13,20 @@
 ├── docs
 ├── models
 ├── notebooks
+│   ├── bbengfort
+│   │   ├── classifiers.ipynb
+│   │   ├── cluster.ipynb
+│   │   └── cooks_distance.ipynb
+│   ├── clustering_visualizers.ipynb
+│   ├── gokriznastic
+│   │   ├── Iris\ -\ clustering\ example.ipynb
+│   │   └── silhouette-visualizer-test.ipynb
+│   ├── regression_visualizers.ipynb
+│   └── walkthrough.ipynb
 ├── pyproject.toml
 ├── requirements.txt
 ├── setup.cfg
 ├── src
-│   └── __init__.py
 ├── tests
 │   └── __init__.py
 └── work
@@ -33,13 +42,13 @@
 
 ## 環境構築
 
-- Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/python-template-repository）
+- Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/yellowbrick-example）
 
 ```
-cd Desktop/python-template-repository
+cd Desktop/yellowbrick-example
 ```
 
-- Dockerによる環境構築（フォルダをマウント：Desktop/python-template-repository）
+- Dockerによる環境構築（フォルダをマウント：Desktop/yellowbrick-example）
 
 ```
 docker-compose up --build

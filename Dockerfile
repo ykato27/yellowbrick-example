@@ -40,6 +40,10 @@ RUN /usr/local/bin/python-build -v $PYTHON_VERSION $PYTHON_ROOT
 RUN rm -rf $PYENV_ROOT
 
 RUN pip install --upgrade pip
+RUN pip install torch==1.10.0+cpu \
+	torchvision==0.11.1+cpu \
+	torchaudio==0.10.0+cpu \
+	-f https://download.pytorch.org/whl/torch_stable.html
 
 COPY requirements.txt ./
 RUN pip install -r requirements.txt
