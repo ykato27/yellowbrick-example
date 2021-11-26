@@ -57,6 +57,10 @@ docker-compose up --build
 - ブラウザーを立ち上げてlocalhost:8888へアクセス
 - ローカルフォルダがマウントされている
 
+## Display notebooks
+
+- [View Jupyter notebooks in nbviewer](https://nbviewer.jupyter.org/github/ykato27/yellowbrick-example/tree/main/notebooks/)
+
 ## 動作環境
 
 マシンスペック（Mac)
